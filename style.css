@@ -45,6 +45,10 @@ body{
    
 }
 
+.paddingbanner{
+    padding-top: 4rem;
+}
+
 .textblueAbril{
     padding-top: 2rem;
     font-family: 'Abril Fatface', cursive;
@@ -84,6 +88,9 @@ body{
 
 .navbar{
     padding : 1rem 0;
+    background-color: #1a1c20;
+    letter-spacing: 0.18rem;
+    font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-item:hover .nav-link{
