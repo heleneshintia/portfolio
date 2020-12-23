@@ -1,0 +1,159 @@
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Roboto', sans-serif;
+black #000000;
+orange #ff3627;
+yellow #fecd1a
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container{
+    padding : 0;
+}
+.setmargin{
+    margin:0;
+    text-align: right;
+}
+
+.profile{
+    background-color: #ff3627;
+    border-bottom: 1rem solid #fecd1a;
+}
+
+.profilename{
+    padding-top: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-align: right;
+}
+.textwhite{
+    padding-top: 1rem;
+    padding-left:30rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight:300;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+   
+}
+
+.textblueAbril{
+    padding-top: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5rem;
+    color: #03045e;
+    letter-spacing: 0.1rem;
+    text-align: right;
+}
+
+.textorangeRoboto{
+    padding-top: 6rem;
+    padding-left:7rem;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight:300;
+    color: #ff3627;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.divimageprofile{
+    background-color: #ff3627;
+    padding: 0;
+    border-bottom: 1rem solid #fecd1a;
+    width: 33.3%;
+    text-align: right;
+}
+
+/*NAVBAR*/
+#menutitle{
+    background-color: #1a1c20;
+    letter-spacing: 0.18rem;
+    font-weight: 600;
+}
+
+.navbar{
+    padding : 1rem 0;
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link{
+    color: #fff;
+    text-decoration: overline;
+   
+   
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #ff3627;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+}
+.navbar-light .navbar-brand:hover{
+    color: #fecd1a;
+}
+
+
+/*BUTTON*/
+.btn-primary{
+    border: #000 0.4rem solid;
+    background-color: #fecd1a ;
+    color: #000;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+
+}
+.btn-primary:hover{
+    border: #fff 0.4rem solid;
+    background-color: #ff3627 ;
+    color: #000;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: overline;
+    font-size: 2rem;
+}
+
+
+/*WORKS*/
+.headingworks{
+    border: #000 1rem solid;
+    padding-right: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.imageproject{
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.textcardRoboto{
+    padding-top: 1rem;
+    padding-left:2rem;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight:300;
+    color: #ff3627;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+/*CONTACT*/
+.headingcontact{
+    background-color:#fecd1a ;
+    border: #000 1rem solid;
+    padding-right: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
