@@ -314,4 +314,10 @@ body {
         text-transform: uppercase;
         text-align: right;
     }
+    /*CARD*/
+    .paddingcard {
+        width: 16rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
 }
