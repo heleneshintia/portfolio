@@ -78,7 +78,8 @@ body {
     /* animate__animated animate__headShake animate__slower animate__repeat-3 */
     animation: headShake;
     animation-duration: 3s;
-    --animate-repeat: 4;
+    --animate-delay: 0.5s;
+    --animate-repeat: 3;
 }
 
 
@@ -301,7 +302,7 @@ body {
         text-align: right;
     }
     .paddingbanner {
-        padding-top: 5rem;
+        padding-top: 4rem;
     }
     .textwhite {
         padding-left: 1rem;
