@@ -75,6 +75,10 @@ body {
     border-bottom: 1rem solid #fecd1a;
     width: 33.3%;
     text-align: right;
+    /* animate__animated animate__headShake animate__slower animate__repeat-3 */
+    animation: headShake;
+    animation-duration: 3s;
+    --animate-repeat: 4;
 }
 
 
@@ -284,9 +288,16 @@ body {
     .profilename {
         padding-top: 3rem;
         font-family: 'Abril Fatface', cursive;
-        font-size: 4rem;
+        font-size: 2.2rem;
         color: #fff;
         letter-spacing: 0.1rem;
+        text-align: right;
+    }
+    .divimageprofile {
+        background-color: #ff3627;
+        padding: 0;
+        border-bottom: 0.8rem solid #fecd1a;
+        width: 33.3%;
         text-align: right;
     }
     .paddingbanner {
@@ -299,6 +310,14 @@ body {
         font-weight: 300;
         color: #fff;
         text-transform: uppercase;
+        text-align: right;
+    }
+    .textblueAbril {
+        padding-top: 1rem;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.8rem;
+        color: #03045e;
+        letter-spacing: 0.1rem;
         text-align: right;
     }
     .paddingimage {
