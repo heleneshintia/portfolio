@@ -314,10 +314,35 @@ body {
         text-transform: uppercase;
         text-align: right;
     }
+    /*BUTTON*/
+    .btn-primary {
+        border: #000 0.15rem solid;
+        background-color: #fecd1a;
+        color: #000;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 0.4rem;
+    }
+    .btn-primary:hover {
+        border: #fff 0.15rem solid;
+        background-color: #ff3627;
+        color: #000;
+        font-family: 'Abril Fatface', cursive;
+        text-decoration: overline;
+        font-size: 0.4rem;
+    }
     /*CARD*/
     .paddingcard {
         width: 16rem;
         margin-left: 2rem;
         margin-bottom: 2rem;
+    }
+    /*CONTACT*/
+    .headingcontact {
+        background-color: #fecd1a;
+        border: #000 0.5rem solid;
+        padding-right: 0.2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
     }
 }
