@@ -36,7 +36,7 @@ body {
 
 .textwhite {
     padding-top: 1rem;
-    padding-left: 30rem;
+    padding-left: 26rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 300;
@@ -118,7 +118,7 @@ body {
     background-color: #fecd1a;
     color: #000;
     font-family: 'Abril Fatface', cursive;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .btn-primary:hover {
@@ -126,8 +126,8 @@ body {
     background-color: #ff3627;
     color: #000;
     font-family: 'Abril Fatface', cursive;
-    text-decoration: overline;
-    font-size: 2rem;
+    text-decoration: overline #fecd1a;
+    font-size: 1.6rem;
 }
 
 
