@@ -6,25 +6,26 @@ orange #ff3627;
 yellow #fecd1a
 */
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.container{
-    padding : 0;
+.container {
+    padding: 0;
 }
-.setmargin{
-    margin:0;
+
+.setmargin {
+    margin: 0;
     text-align: right;
 }
 
-.profile{
+.profile {
     background-color: #ff3627;
     border-bottom: 1rem solid #fecd1a;
 }
 
-.profilename{
+.profilename {
     padding-top: 2rem;
     font-family: 'Abril Fatface', cursive;
     font-size: 5rem;
@@ -32,24 +33,23 @@ body{
     letter-spacing: 0.1rem;
     text-align: right;
 }
-.textwhite{
-    padding-top: 1rem;
-    padding-left:30rem;
 
+.textwhite {
+    padding-top: 1rem;
+    padding-left: 30rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight:300;
+    font-weight: 300;
     color: #fff;
     text-transform: uppercase;
     text-align: right;
-   
 }
 
-.paddingbanner{
+.paddingbanner {
     padding-top: 4rem;
 }
 
-.textblueAbril{
+.textblueAbril {
     padding-top: 2rem;
     font-family: 'Abril Fatface', cursive;
     font-size: 5rem;
@@ -58,20 +58,18 @@ body{
     text-align: right;
 }
 
-.textorangeRoboto{
+.textorangeRoboto {
     padding-top: 6rem;
-    padding-left:7rem;
-
-
+    padding-left: 7rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight:300;
+    font-weight: 300;
     color: #ff3627;
     text-transform: uppercase;
     text-align: right;
 }
 
-.divimageprofile{
+.divimageprofile {
     background-color: #ff3627;
     padding: 0;
     border-bottom: 1rem solid #fecd1a;
@@ -79,50 +77,53 @@ body{
     text-align: right;
 }
 
+
 /*NAVBAR*/
-#menutitle{
+
+#menutitle {
     background-color: #1a1c20;
     letter-spacing: 0.18rem;
     font-weight: 600;
 }
 
-.navbar{
-    padding : 1rem 0;
+.navbar {
+    padding: 1rem 0;
     background-color: #1a1c20;
     letter-spacing: 0.18rem;
     font-weight: 600;
 }
 
-.navbar-light .navbar-nav .nav-item:hover .nav-link{
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
     color: #fff;
     text-decoration: overline;
-   
-   
 }
-.navbar-light .navbar-nav .nav-item .nav-link{
+
+.navbar-light .navbar-nav .nav-item .nav-link {
     color: #ff3627;
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
     color: #fff;
 }
-.navbar-light .navbar-brand:hover{
+
+.navbar-light .navbar-brand:hover {
     color: #fecd1a;
 }
 
 
 /*BUTTON*/
-.btn-primary{
+
+.btn-primary {
     border: #000 0.4rem solid;
-    background-color: #fecd1a ;
+    background-color: #fecd1a;
     color: #000;
     font-family: 'Abril Fatface', cursive;
     font-size: 2rem;
-
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     border: #fff 0.4rem solid;
-    background-color: #ff3627 ;
+    background-color: #ff3627;
     color: #000;
     font-family: 'Abril Fatface', cursive;
     text-decoration: overline;
@@ -131,36 +132,143 @@ body{
 
 
 /*WORKS*/
-.headingworks{
+
+.headingworks {
     border: #000 1rem solid;
     padding-right: 1.2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.imageproject{
+
+.imageproject {
     max-width: 100%;
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
 
-.textcardRoboto{
+.textcardRoboto {
     padding-top: 1rem;
-    padding-left:2rem;
-
-
+    padding-left: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight:300;
+    font-weight: 300;
     color: #ff3627;
     text-transform: uppercase;
     text-align: right;
 }
 
+.paddingcard {
+    width: 25rem;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+.titleparagraphRoboto {
+    padding-top: 3rem;
+    padding-left: 7rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ff3627;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
 /*CONTACT*/
-.headingcontact{
-    background-color:#fecd1a ;
+
+.headingcontact {
+    background-color: #fecd1a;
     border: #000 1rem solid;
     padding-right: 1.2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Banner Welcome */
+    .profilename {
+        padding-top: 2rem;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 4rem;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        text-align: right;
+    }
+    .profile {
+        background-color: #ff3627;
+        border-bottom: 1rem solid #fecd1a;
+    }
+    .paddingbanner {
+        padding-top: 5rem;
+    }
+    .textwhite {
+        padding-left: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 300;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    .paddingimage {
+        padding-top: 4rem;
+    }
+    /* Project */
+    .textblueAbril {
+        padding-top: 1.5rem;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 3rem;
+        color: #03045e;
+        letter-spacing: 0.1rem;
+        text-align: right;
+    }
+    .headingworks {
+        border: #000 0.5rem solid;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .textorangeRoboto {
+        padding-top: 3rem;
+        padding-left: 3rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 300;
+        color: #ff3627;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    /*BUTTON*/
+    .btn-primary {
+        border: #000 0.2rem solid;
+        background-color: #fecd1a;
+        color: #000;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 0.8rem;
+    }
+    .btn-primary:hover {
+        border: #fff 0.2rem solid;
+        background-color: #ff3627;
+        color: #000;
+        font-family: 'Abril Fatface', cursive;
+        text-decoration: overline;
+        font-size: 0.8rem;
+    }
+    /*CARD*/
+    .paddingcard {
+        width: 20rem;
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+    }
+    /*CONTACT*/
+    .headingcontact {
+        background-color: #fecd1a;
+        border: #000 0.5rem solid;
+        padding-right: 0.2rem;
+        margin-top: 1.2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
 }
