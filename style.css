@@ -16,7 +16,6 @@ body {
 }
 
 .setmargin {
-    margin: 0;
     text-align: right;
 }
 
@@ -302,6 +301,9 @@ body {
 
 @media (max-width: 480px) {
     /* Banner Welcome */
+    .setcontainer {
+        margin-top: 10rem;
+    }
     .profilename {
         padding-top: 3rem;
         font-family: 'Abril Fatface', cursive;
