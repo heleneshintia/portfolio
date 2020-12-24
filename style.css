@@ -185,6 +185,9 @@ body {
     margin-bottom: 2rem;
 }
 
+
+/* SMALL SIZE DESKTOP  */
+
 @media screen and (max-width: 1024px) {
     /* Banner Welcome */
     .profilename {
@@ -270,5 +273,39 @@ body {
         margin-top: 1.2rem;
         margin-bottom: 2rem;
         font-size: 2rem;
+    }
+}
+
+
+/* PHONE */
+
+@media (max-width: 480px) {
+    /* Banner Welcome */
+    .profilename {
+        padding-top: 3rem;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 4rem;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        text-align: right;
+    }
+    .profile {
+        background-color: #ff3627;
+        border-bottom: 1rem solid #fecd1a;
+    }
+    .paddingbanner {
+        padding-top: 5rem;
+    }
+    .textwhite {
+        padding-left: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 300;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    .paddingimage {
+        padding-top: 6rem;
     }
 }
