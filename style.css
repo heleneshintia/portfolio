@@ -302,11 +302,12 @@ body {
         text-align: right;
     }
     .paddingimage {
-        margin-top: 7rem;
+        padding-top: 5rem;
     }
     .textorangeRoboto {
         padding-top: 2rem;
         padding-left: 1rem;
+        padding-bottom: 1rem;
         font-family: 'Roboto', sans-serif;
         font-size: 0.5rem;
         font-weight: 300;
@@ -335,6 +336,16 @@ body {
         width: 16rem;
         margin-left: 2rem;
         margin-bottom: 2rem;
+    }
+    .titleparagraphRoboto {
+        padding-top: 3rem;
+        padding-left: 5rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 300;
+        color: #ff3627;
+        text-transform: uppercase;
+        text-align: right;
     }
     /*CONTACT*/
     .headingcontact {
